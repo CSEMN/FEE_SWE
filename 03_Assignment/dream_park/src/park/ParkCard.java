@@ -8,7 +8,7 @@ public class ParkCard {
 
     public ParkCard() {
         this.pc_id = Generate.id("CARD");
-        this.balance = Generate.money(10.0, 200.0);
+        this.balance = Generate.money(50.0, 200.0);
     }
 
     public ParkCard(double balance) {

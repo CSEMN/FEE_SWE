@@ -49,7 +49,7 @@ public class Generate {
 
     public static String id(String initial){
         Random rand= new Random();
-        return (initial+"-"+rand.nextInt(999));
+        return (initial+"-"+(rand.nextInt(899)+100));
     }
 
     public static void printDashes(int num){

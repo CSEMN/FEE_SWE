@@ -64,6 +64,8 @@ public class Main {
     }
 
     public static void displayVisitors(){
+        Generate.printDashes(16);
+        System.out.println("Visitors List  |");
         Generate.printDashes(61);
         System.out.printf("%8s | %8s | %-20s | %4s | %7s |\n",
                         "VID","CardID","Visitor Name","Age","Balance");
@@ -83,6 +85,8 @@ public class Main {
     }
 
     public static void displaySellers(){
+        Generate.printDashes(15);
+        System.out.println("Sellers List  |");
         Generate.printDashes(81);
         System.out.printf("%8s | %-20s | %3s | %10s | %10s | %12s |\n",
                         "SID","Seller Name","Age","Base Salary","Commission","Total Salary");
